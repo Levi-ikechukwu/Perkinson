@@ -15,14 +15,17 @@ export default {
       },
       colors: {
         darkblack: "rgba(51, 51, 51, 1)",
+        darkgrey: "rgba(242, 242, 242, 1)",
         pcolor: "rgba(132, 132, 132, 1)",
-        bgcolor: "rgba(255, 255, 255, 1)",
+      
+        bgcolor: "import image2 from '../assets/image2.svg'",
         btn1: "rgba(17, 42, 70, 1)",
         bd: "rgba(245, 245, 245, 1)",
         star: "rgba(255, 254, 254, 1)",
         num: "rgba(51, 51, 51, 1)",
        
       },
+      
     },
   },
   plugins: [],

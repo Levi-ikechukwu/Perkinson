@@ -1,12 +1,12 @@
-import Button1 from "./Button1"
-import Button2 from "./Button2"
-import Stars from "./Stars"
+import Button1 from "../../../components/Button1"
+import Button2 from "../../../components/Button2"
+import Stars from "../../../components/Stars"
 const Hero = () => {
   return (
     <>
-    <section className="w-full bg-bgcolor md:bg-star">
-        <div className='m-auto w-[90%] pt-[45px]'>
-            <h1 className='text-darkblack font-inter font-bold text-[40px] text-center leading-tight'>
+    <section className="w-full bg-bgcolor md:bg-star relative z-[10]">
+        <div className='m-auto md:w-[70%] w-[90%] pt-[45px]'>
+            <h1 className='text-darkblack font-inter font-bold md:text-[60px] text-[40px] text-center leading-tight'>
             The Future of Manufacturing with Latest Technology 
             </h1>
 
@@ -14,7 +14,7 @@ const Hero = () => {
             Expert tech to elevate your Manufacturing. Let&apos;s take your business further. 
             </h2>
 
-            <div className='flex w-[90%] m-auto justify-between pt-6'>
+            <div className='flex w-[90%] md:w-[38%] m-auto justify-between pt-6'>
                 <div>
               <Button1/>
                 </div>
@@ -23,7 +23,7 @@ const Hero = () => {
                </div>
             </div>
 
-            <div className='flex w-[90%] m-auto justify-center mt-4  items-center'>
+            <div className='flex  w-[90%] m-auto justify-center mt-4  items-center'>
                <div className='flex '>
                <Stars/>
                <Stars/>
