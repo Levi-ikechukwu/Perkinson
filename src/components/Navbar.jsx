@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
  <>
  <nav className={`w-full bg-bgcolor h-20 sticky top-0 z-[1000] ${scrolled ? 'shadow-custom' : ''}`}>
-  <div className='flex justify-between items-center py-3 w-[90%] m-auto '>
+  <div className='flex justify-between items-center py-3 w-[95%] m-auto '>
       <div className='flex  items-center'>
         <a href="/">
         <svg width="80" height="26" viewBox="0 0 81 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,8 +43,8 @@ const Navbar = () => {
         <div className='hidden md:block'>
           <Button1/>
         </div>
-      <div  className='w-[90%] text-[30px] md:hidden'>
-      <RxHamburgerMenu className='w-[90%] text-[30px] md:hidden font-bold pr-4'/>
+      <div  className='w-[10%] text-[30px] md:hidden'>
+      <RxHamburgerMenu className='w-[90%] text-[30px] md:hidden font-bold '/>
       </div>
   </div>
  </nav>

@@ -4,7 +4,7 @@ import Stars from "../../../components/Stars"
 const Hero = () => {
   return (
     <>
-    <section className="w-full bg-bgcolor md:bg-star relative z-[10]">
+    <section className="w-full bg-bgcolor  mt-1">
         <div className='m-auto md:w-[70%] w-[90%] pt-[45px]'>
             <h1 className='text-darkblack font-inter font-bold md:text-[60px] text-[40px] text-center leading-tight'>
             The Future of Manufacturing with Latest Technology 
